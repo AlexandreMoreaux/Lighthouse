@@ -38,7 +38,7 @@ $LighthouseOfferDescription = "This is your Lighthouse Access of $($PartnerName)
 ########################################################
 # Github repository where the script will be download #
 ########################################################
-$PartnerLighthousegithubRawUrl = ""
+$PartnerLighthousegithubRawUrl = "https://raw.githubusercontent.com/AlexandreMoreaux/Lighthouse/main/Lighthouse-partner-right.json"
 $LigthousePartnerTemplateOutputFile = "C:\PartnerLighthouse\Lighthouse-partner-right.json"
 
 ##########################
