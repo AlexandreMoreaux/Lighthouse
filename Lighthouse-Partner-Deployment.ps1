@@ -1,16 +1,16 @@
 ###################
 # Partner Tenant #
 ###################
-#Partner Side
-#Warning This Script use the template for all the subscription with permanent right
-#If you want to manage only a Resource Group or multiple resource group don't use this script
-#Prerequisite
-#A user with the Owner right of the Azure Tenant
+## Partner Side ##
+## Warning This Script use the template for all the subscription with permanent right ##
+## If you want to manage only a Resource Group or multiple resource group don't use this script ##
+## Prerequisite ##
+## A user with the Owner right of the Azure Tenant ##
 
 ##############
 # Variables #
 ##############
-$PartnerAzureSubscriptionName = "MSDN FR 2" # Replace with your Azure Subscription Name
+$PartnerAzureSubscriptionName = "" ## Replace with your Azure Subscription Name ##
 
 ## End Customer Name Used in the Entra Group ##
 $EndcustomerName = "ABC" # Replace with your End Customer Name
@@ -23,7 +23,7 @@ $LighthouseAzureADGroupDescription = "This is your Lighthouse Group for the Admi
 ## Entra Group ##
 
 ## Owner of the Entra Group ##
-$LighthouseAzureADGroupOwner = "alex admin"  # Replace with the user's Display Name
+$LighthouseAzureADGroupOwner = "alex admin"  ## Replace with the user's Display Name ##
 ## Owner of the Entra Group ##
 
 ## Member of the Entra Group ##
@@ -31,7 +31,7 @@ $LighthouseAzureADGroupMember = @("alexuser@demomsdnalex.onmicrosoft.com", "demo
 ## Member of the Entra Group ##
 
 ## Azure Ligthouse Variable ##
-$PartnerName = "DCE" # Replace with your Name
+$PartnerName = "DCE" ## Replace with your Name ##
 $LighthouseOfferName = "Lighthouse access" -f $PartnerName
 $LighthouseOfferDescription = "This is your Lighthouse Access of $($PartnerName) for the Administration of the tenant of Tenant"
 
