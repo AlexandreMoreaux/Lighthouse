@@ -10,7 +10,7 @@
 ##############
 # Variables #
 ##############
-$PartnerAzureSubscriptionName = "" ## Replace with your Azure Subscription Name ##
+$PartnerAzureSubscriptionName = "MSDN FR 2" ## Replace with your Azure Subscription Name ##
 
 ## End Customer Name Used in the Entra Group ##
 $EndcustomerName = "ABC" # Replace with your End Customer Name
@@ -23,11 +23,11 @@ $LighthouseAzureADGroupDescription = "This is your Lighthouse Group for the Admi
 ## Entra Group ##
 
 ## Owner of the Entra Group ##
-$LighthouseAzureADGroupOwner = ""  ## Replace with the user's Display Name ##
+$LighthouseAzureADGroupOwner = "alex admin"  ## Replace with the user's Display Name ##
 ## Owner of the Entra Group ##
 
 ## Member of the Entra Group ##
-$LighthouseAzureADGroupMember = @("a@example.onmicrosoft.com", "b@example.onmicrosoft.com", "c@example.onmicrosoft.com")  # Add as many users as needed
+$LighthouseAzureADGroupMember = @("alexuser@demomsdnalex.onmicrosoft.com", "demo104@demomsdnalex.onmicrosoft.com", "jlo@DemoMSDNAlex.onmicrosoft.com")  # Add as many users as needed
 ## Member of the Entra Group ##
 
 ## Azure Ligthouse Variable ##
@@ -131,6 +131,7 @@ $jsonContent | ConvertTo-Json -Depth 10 | Set-Content -Path $LigthousePartnerTem
 ## Congratulation you have download and configure the Json Script that you will use in the EndCustomer Tenant ##
 ## The Json script set the following right ##
 ## Contributor ##
-## User Access Administrator ##
 ## Security Admin ##
 ## Log Analytics Contributor ##
+## Reader ##
+## Managed Services Registration assignment Delete Role ##

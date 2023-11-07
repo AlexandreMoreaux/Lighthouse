@@ -36,6 +36,16 @@
     "principalId": "84e22a88-1897-4a29-a2c7-6dfaadfeba22",
     "roleDefinitionId": "92aaf0da-9dab-42b6-94a3-d43ce8d16293",
     "principalIdDisplayName": "Mondo-AVD-Admin"
+   },
+      {
+    "principalId": "84e22a88-1897-4a29-a2c7-6dfaadfeba22",
+    "roleDefinitionId": "acdd72a7-3385-48ef-bd42-f606fba81ae7",
+    "principalIdDisplayName": "Mondo-AVD-Admin"
+   },
+      {
+    "principalId": "84e22a88-1897-4a29-a2c7-6dfaadfeba22",
+    "roleDefinitionId": "91c1777a-f3dc-4fae-b103-61d183457e46",
+    "principalIdDisplayName": "Mondo-AVD-Admin"
    }
   ]
  },
