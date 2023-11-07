@@ -29,11 +29,6 @@
    },
    {
     "principalId": "84e22a88-1897-4a29-a2c7-6dfaadfeba22",
-    "roleDefinitionId": "18d7d88d-d35e-4fb5-a5c3-7773c20a72d9",
-    "principalIdDisplayName": "Mondo-AVD-Admin"
-   },
-   {
-    "principalId": "84e22a88-1897-4a29-a2c7-6dfaadfeba22",
     "roleDefinitionId": "fb1c8493-542b-48eb-b624-b4c8fea62acd",
     "principalIdDisplayName": "Mondo-AVD-Admin"
    },
