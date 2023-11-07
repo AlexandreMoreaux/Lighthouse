@@ -23,11 +23,11 @@ $LighthouseAzureADGroupDescription = "This is your Lighthouse Group for the Admi
 ## Entra Group ##
 
 ## Owner of the Entra Group ##
-$LighthouseAzureADGroupOwner = "alex admin"  ## Replace with the user's Display Name ##
+$LighthouseAzureADGroupOwner = ""  ## Replace with the user's Display Name ##
 ## Owner of the Entra Group ##
 
 ## Member of the Entra Group ##
-$LighthouseAzureADGroupMember = @("alexuser@demomsdnalex.onmicrosoft.com", "demo104@demomsdnalex.onmicrosoft.com", "jlo@DemoMSDNAlex.onmicrosoft.com")  # Add as many users as needed
+$LighthouseAzureADGroupMember = @("a@example.onmicrosoft.com", "b@example.onmicrosoft.com", "c@example.onmicrosoft.com")  # Add as many users as needed
 ## Member of the Entra Group ##
 
 ## Azure Ligthouse Variable ##
